@@ -1,4 +1,13 @@
 <% if (page.comments){ %>
+ <nav id="pagination" >
+    <% if (page.prev) { %>
+    <a href="<%- config.root %><%- page.prev.path %>" class="alignleft prev" >前一篇</a>
+    <% } %>
+    <% if (page.next) { %>
+    <a href="<%- config.root %><%- page.next.path %>" class="alignright next" >后一篇</a>
+    <% } %>
+    <div class="clearfix"></div>
+</nav>
 <section id="comment">
   <h1 class="title"><%= __('comment') %></h1>
 
@@ -10,6 +19,21 @@
   <div id="disqus_thread">
     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   </div>
+  <% } %>
+ <% if (!index && theme.duoshuo_shortname){ %>
+<!-- Duoshuo Comment BEGIN -->
+  <div class="ds-thread"></div>
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"<%= theme.duoshuo_shortname%>"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.src = 'http://static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+<!-- Duoshuo Comment END --> 
   <% } %>
 </section>
 <% } %>

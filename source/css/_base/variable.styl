@@ -1,4 +1,5 @@
 // Color
+color-default = #565a5f
 color-background = #eee
 color-font = #444
 color-meta = #999
@@ -11,7 +12,7 @@ font-serif = "Georgia", serif
 font-mono = Monaco, Menlo, Consolas, Courier New, monospace
 font-title = "Lato", Helvetica Neue, Helvetica, Arial, sans-serif
 
-@import url("//fonts.googleapis.com/css?family=Lato:400,400italic")
+@import url("http://fonts.useso.com/css?family=Lato:400,400italic")
 
 font-icon = FontAwesome
 font-icon-path = 'font/fontawesome-webfont'
@@ -25,3 +26,8 @@ font-icon-path = 'font/fontawesome-webfont'
 
 // Width
 page-width = 1200px
+
+if profile
+  _profile-column = profile-column
+else
+  _profile-column = 0

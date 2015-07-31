@@ -1,6 +1,19 @@
+<script>
+var option = {
+  engineKey: 'ce95ee1b31097fdb02a4'
+};
+(function(w,d,t,u,n,s,e){
+  s = d.createElement(t);
+  s.src = u;
+  s.async = 1;
+  w[n] = function(r){
+    w[n].opts = r;
+  };
+  e = d.getElementsByTagName(t)[0];
+  e.parentNode.insertBefore(s, e);
+})(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
+_ts(option);
+</script>
 <div class="search">
-  <form action="//google.com/search" method="get" accept-charset="utf-8">
-    <input type="search" name="q" results="0" placeholder="<%= __('search') %>">
-    <input type="hidden" name="q" value="site:<%- config.url.replace(/^https?:\/\//, '') %>">
-  </form>
+	<form><input type="text" id="ts-search-input" placeholder="Search"></form>
 </div>
