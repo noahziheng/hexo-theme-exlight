@@ -5,34 +5,37 @@ menu:
   About: /about
 
 widgets:
-- profile
-- search
-- recent_posts
-- category
-- tagcloud
-- weibo
-- links
+- profile #个人介绍挂件
+- search #基于TinySou的小挂件，需配置下面的TinySou标志
+- recent_posts #最近文章挂件
+- category #分类挂件
+- tagcloud #标签云挂件
+- weibo #微博秀挂件，需配置底下的UID
+- links #友链挂件，添加友链需修改./layout/_widget/links.ejs
+#另有tag挂件可选
 
 excerpt_link: 阅读全文
 
 jiathis:
   enable: true #JiaThis分享开关
 
-fancybox: true
-baidu_tongji: f4eb406be058265cf6064b36b379393d
-google_analytics: 
+fancybox: true #fancybox配置
+baidu_tongji: f4eb406be058265cf6064b36b379393d #百度统计
+google_analytics: #UA-XXXXXX-X
 rss: #可不填写
-duoshuo_shortname: noahgao #多说评论
+duoshuo_shortname: noahgao #多说评论名称
+
+tinysou_id: ce95ee1b31097fdb02a4
 
 weibo_uid: 2652975830 #微博秀UID
-SNS:
+SNS: #右侧个人介绍widget社交链接配置
   github: http://github.com/noahziheng
   twitter: https://twitter.com/noahziheng
   facebook: https://www.facebook.com/profile.php?id=100007443646852
   weibo: http://weibo.com/noah1719
-  zhihu: http://www.zhihu.com
-profile:
-  name: 'Noah Gao'
-  headimg: http://7xksvs.com1.z0.glb.clouddn.com/headimg_dl.jpg
-  description: 'Web &amp; Node.js Developer'
-  location:  'Tianjin,China'
+  zhihu: http://www.zhihu.com/people/noah-gao
+profile: #右侧个人介绍widget配置
+  name: 'Noah Gao' #你的名字
+  headimg: http://7xksvs.com1.z0.glb.clouddn.com/headimg_dl.jpg #你的头像地址
+  description: 'Web &amp; Node.js Developer' #你的一句话简介
+  location:  'Tianjin,China' #你的位置
