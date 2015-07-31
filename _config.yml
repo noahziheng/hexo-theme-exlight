@@ -16,25 +16,23 @@ widgets:
 excerpt_link: 阅读全文
 
 jiathis:
-  enable: true
-
-addthis:
-  enable: false
-  pubid:
-  facebook: true
-  twitter: true
-  google: true
-  pinterest: true
+  enable: true #JiaThis分享开关
 
 fancybox: true
 baidu_tongji: f4eb406be058265cf6064b36b379393d
-rss: 
+google_analytics: 
+rss: #可不填写
+duoshuo_shortname: noahgao #多说评论
 
-comment_provider: duoshuo
-duoshuo_shortname: noahgao
-# Facebook comment
-#facebook:
-  #appid: 123456789012345
-  #comment_count: 5
-  #comment_width: 840
-  #comment_colorscheme: light
+weibo_uid: 2652975830 #微博秀UID
+SNS:
+  github: http://github.com/noahziheng
+  twitter: https://twitter.com/noahziheng
+  facebook: https://www.facebook.com/profile.php?id=100007443646852
+  weibo: http://weibo.com/noah1719
+  zhihu: http://www.zhihu.com
+profile:
+  name: 'Noah Gao'
+  headimg: http://7xksvs.com1.z0.glb.clouddn.com/headimg_dl.jpg
+  description: 'Web &amp; Node.js Developer'
+  location:  'Tianjin,China'
