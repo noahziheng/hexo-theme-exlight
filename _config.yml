@@ -37,5 +37,5 @@ SNS: #右侧个人介绍widget社交链接配置
 profile: #右侧个人介绍widget配置
   name: 'Noah Gao' #你的名字
   headimg: http://7xksvs.com1.z0.glb.clouddn.com/headimg_dl.jpg #你的头像地址
-  description: 'Web &amp; Node.js Developer' #你的一句话简介
+  description: 'Full-stack & Embedded Developer' #你的一句话简介
   location:  'Tianjin,China' #你的位置
