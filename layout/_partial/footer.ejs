@@ -4,6 +4,12 @@
   <% } else { %>
   &copy; <%= new Date().getFullYear() %> <%= config.title %>
   <% } %>
+  . Powered by <a href="http://hexo.io/" style="color:#999;">Hexo. </a>
+  <a href="http://www.miitbeian.gov.cn/" style="color:#999;"><%= config.icp %>.</a>
+</div>
+<br>
+<div class="alignleft">
+    <img alt="知识共享许可协议" style="border-width:1" src="<%- config.root %>cc-by-sa.png"> 除非另有声明，本站的文字内容均在<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">知识共享 署名-相同方式共享 4.0协议</a>之条款下提供。
 </div>
 <div class="clearfix"></div>
   <%- partial('analytics') %>

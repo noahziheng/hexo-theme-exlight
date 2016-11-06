@@ -10,7 +10,7 @@ widgets:
 - recent_posts #最近文章挂件
 - category #分类挂件
 - tagcloud #标签云挂件
-- weibo #微博秀挂件，需配置底下的UID
+#- weibo #微博秀挂件，需配置底下的UID
 - links #友链挂件，添加友链需修改./layout/_widget/links.ejs
 #另有tag挂件可选
 
