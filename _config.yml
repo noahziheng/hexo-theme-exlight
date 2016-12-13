@@ -17,10 +17,10 @@ widgets:
 excerpt_link: 阅读全文
 
 jiathis:
-  enable: true #JiaThis分享开关
+  enable: false #JiaThis分享开关
 
 fancybox: true #fancybox配置
-baidu_tongji: f4eb406be058265cf6064b36b379393d #百度统计
+#baidu_tongji: f4eb406be058265cf6064b36b379393d #百度统计
 google_analytics: #UA-XXXXXX-X
 rss: #可不填写
 duoshuo_shortname: noahgao #多说评论名称
@@ -36,6 +36,6 @@ SNS: #右侧个人介绍widget社交链接配置
   zhihu: http://www.zhihu.com/people/noah-gao
 profile: #右侧个人介绍widget配置
   name: 'Noah Gao' #你的名字
-  headimg: http://7xksvs.com1.z0.glb.clouddn.com/headimg_dl.jpg #你的头像地址
+  headimg: https://ooo.0o0.ooo/2016/12/13/5850153a10499.jpg #你的头像地址
   description: 'Full-stack & Embedded Developer' #你的一句话简介
   location:  'Tianjin,China' #你的位置
